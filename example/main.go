@@ -1,8 +1,10 @@
-// example/main.go
 package main
 
-import "fmt"
+import (
+	"calc"
+	"fmt"
+)
 
 func main() {
-    fmt.Println("Пример приложения")
-}
+    fmt.Println("Сумма =", calc.AddInts(1, 56, 78,-33))
+} 
